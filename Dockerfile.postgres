@@ -1,0 +1,83 @@
+ARG PG_MAJOR=16
+
+FROM --platform=linux/amd64 postgis/postgis:$PG_MAJOR-master
+
+ARG PG_MAJOR
+
+RUN apt-get update && \
+		apt-mark hold locales && \
+		apt-get install -y --no-install-recommends \
+		    git cmake flex bison build-essential ca-certificates postgresql-plpython3-$PG_MAJOR postgresql-server-dev-$PG_MAJOR \
+		    libboost-graph-dev \
+		    libboost-atomic1.74.0 \
+            libboost-chrono1.74.0 \
+            libboost-graph1.74.0 \
+            libboost-date-time1.74.0 \
+            libboost-program-options1.74.0 \
+            libboost-system1.74.0 \
+            libboost-thread1.74.0
+
+# CREATE EXTENSIONS pgrouting;
+ENV PGROUTING_VERSION=3.8.0
+ENV PGROUTING_SHA256=b8a5f0472934fdf7cda3fb4754d01945378d920cdaddc01f378617ddbb9c447f
+RUN git clone https://github.com/pgRouting/pgrouting.git /tmp/pgrouting && \
+        cd /tmp/pgrouting && \
+        git checkout v${PGROUTING_VERSION} && \
+        mkdir build && \
+        cd build && \
+        cmake .. && \
+        make && \
+        make install && \
+        cd / && \
+        rm -rf /tmp/pgrouting
+
+# CREATE EXTENSION vector;
+RUN git clone https://github.com/pgvector/pgvector.git /tmp/pgvector && \
+		cd /tmp/pgvector && \
+		make clean && \
+		make OPTFLAGS="" && \
+		make install && \
+		mkdir /usr/share/doc/pgvector && \
+		cp LICENSE README.md /usr/share/doc/pgvector && \
+		cd / && \
+        rm -rf /tmp/pgvector
+
+# CREATE EXTENSION age;
+RUN git clone https://github.com/apache/incubator-age /tmp/age && \
+        cd /tmp/age && \
+        make && \
+        make install && \
+		cd / && \
+        rm -rf /tmp/age
+
+# CREATE EXTENSION timescaledb;
+RUN git clone https://github.com/timescale/timescaledb /tmp/timescaledb && \
+		cd /tmp/timescaledb && \
+		./bootstrap && \
+		cd build && \
+		make && \
+		make install && \
+		rm -rf /tmp/timescaledb
+
+# CREATE EXTENSION h3;
+#RUN git clone https://github.com/zachasme/h3-pg /tmp/h3 && \
+#        cd /tmp/h3 && \
+#        cmake -B build -DCMAKE_BUILD_TYPE=Release && \
+#        cmake --build build && \
+#        cmake --install build --component h3-pg && \
+#        rm -r /tmp/h3
+
+RUN apt-get remove -y build-essential git cmake flex bison build-essential postgresql-plpython3-$PG_MAJOR postgresql-server-dev-$PG_MAJOR && \
+		apt-get autoremove -y && \
+		apt-mark unhold locales && \
+		rm -rf /var/lib/apt/lists/*
+
+RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen \
+    && locale-gen \
+    && update-locale LANG=en_US.UTF-8
+
+ENV LANG=en_US.UTF-8
+ENV LC_COLLATE=en_US.UTF-8
+ENV LC_CTYPE=en_US.UTF-8
+
+CMD ["postgres", "-c", "shared_preload_libraries=timescaledb,age"]

@@ -1,0 +1,15 @@
+[project]
+name = "learn-svgrouting"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.3",
+    "networkx>=3.4.2",
+    "notebook>=7.4.2",
+    "numpy>=2.2.5",
+    "psycopg2-binary>=2.9.10",
+    "shapely>=2.1.0",
+    "svgelements>=1.9.6",
+]
