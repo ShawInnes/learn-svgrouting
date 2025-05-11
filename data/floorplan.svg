@@ -24,15 +24,15 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    inkscape:document-units="mm"
-   inkscape:zoom="1.9844152"
-   inkscape:cx="381.22062"
-   inkscape:cy="458.82535"
+   inkscape:zoom="1.3649989"
+   inkscape:cx="573.62683"
+   inkscape:cy="485.34837"
    inkscape:window-width="1728"
    inkscape:window-height="994"
    inkscape:window-x="0"
    inkscape:window-y="38"
    inkscape:window-maximized="0"
-   inkscape:current-layer="layer3"
+   inkscape:current-layer="layer1"
    showgrid="false" />
     <g
    inkscape:label="floor_layer"
@@ -45,9 +45,10 @@
    inkscape:groupmode="layer"
    id="layer3"
    inkscape:label="obstacle_layer"><path
-   style="fill:#3624c3;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;fill-opacity:0.51570678"
-   d="m 17.246193,107.53508 18.767916,0.76086 16.231709,51.73858 -15.217228,6.59413 z"
-   id="path80" />
+   style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+   d="m 17.246193,107.53508 18.767916,0.76086 16.643384,52.83638 -15.628903,5.49633 z"
+   id="path80"
+   sodipodi:nodetypes="ccccc" />
         <path
    style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
    d="m 33.342937,96.348592 34.098359,0.02175 0.0054,5.439246 -33.736962,-0.48549 z"
@@ -62,9 +63,10 @@
    d="M 53.513921,165.10693 71.774597,159.7809 61.629776,130.10731 44.637205,135.68696 Z"
    id="path83" />
         <path
-   style="fill:#3624c3;fill-opacity:0.51570678;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   d="m 54.021161,165.10693 17.246195,-4.81879 6.847753,21.81136 6.847752,0.25362 0.507241,15.97809 H 64.419601 Z"
-   id="path84" />
+   style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+   d="m 53.197812,163.87191 17.520645,-4.68157 7.396652,22.90916 6.847752,0.25362 0.507241,15.97809 H 64.419601 Z"
+   id="path84"
+   sodipodi:nodetypes="ccccccc" />
         <path
    style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
    d="m 65.941325,87.499065 v 3.550687 H 180.8314 l 0.25362,45.905308 -13.61585,0.76086 0.17397,32.46342 h 24.60118 l -0.50724,-82.933894 z"
@@ -77,7 +79,7 @@
    sodipodi:nodetypes="ccccc" />
         <path
    style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.0883798;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   d="m 85.21689,139.10335 -0.0097,3.16899 75.2053,-0.0289 v -3.00417 z"
+   d="m 83.898671,139.02096 0.113883,3.25138 76.399936,-0.0289 0.0412,-3.21014 z"
    id="path87"
    sodipodi:nodetypes="ccccc" />
         
@@ -87,8 +89,9 @@
    d="m 76.593384,155.21573 8.115856,0.25363 -0.253619,-30.18084 H 70.506494 v 2.28258 z"
    id="path90" /><path
    style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
-   d="M 84.747882,197.68912 H 191.47987 v -28.69681 h -2.8529 v 27.01863 H 84.412248 Z"
-   id="path4" /></g>
+   d="m 84.777645,198.3439 107.416525,-0.0595 0.0595,-28.45871 -3.50768,-0.0595 -0.11905,26.2448 H 84.412248 Z"
+   id="path4"
+   sodipodi:nodetypes="ccccccc" /></g>
     <g
    inkscape:groupmode="layer"
    id="layer1"
@@ -471,7 +474,7 @@
             <rect
    style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
    id="wp-21"
-   width="9.4592857"
+   width="9.4589996"
    height="11.478199"
    x="140.10345"
    y="163.45625" /></g>
