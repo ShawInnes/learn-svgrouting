@@ -10,6 +10,5 @@ dependencies = [
     "notebook>=7.4.2",
     "numpy>=2.2.5",
     "psycopg2-binary>=2.9.10",
-    "shapely>=2.1.0",
-    "svgelements>=1.9.6",
+    "shapely>=2.1.0"
 ]
