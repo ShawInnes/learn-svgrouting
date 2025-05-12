@@ -7,7 +7,11 @@ leverages tools like PostGIS, pgRouting, and various Python libraries to generat
 of floorplans, obstacles, and desks. This can be useful for applications such as robot navigation in mapped
 environments.
 
-Example output:
+### Intermediate Step - Calculating Walkable Areas
+
+![Example of walkable areas](docs/walkable.png)
+
+### Output Step - Python NetworkX Route Calculation
 
 ![Example of routing output](docs/routing.png)
 
@@ -48,6 +52,8 @@ cd learn-svgrouting
 2. **Install dependencies**
 
 ```bash
+uv venv
+source .venv/bin/activate
 uv sync
 ```
 
