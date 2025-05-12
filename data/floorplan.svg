@@ -1,538 +1,66 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
-   version="1.1"
-   id="svg1"
-   xml:space="preserve"
-   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   sodipodi:docname="floorplan.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs1" /><sodipodi:namedview
-   id="namedview1"
-   pagecolor="#ffffff"
-   bordercolor="#000000"
-   borderopacity="0.25"
-   inkscape:showpageshadow="2"
-   inkscape:pageopacity="0.0"
-   inkscape:pagecheckerboard="0"
-   inkscape:deskcolor="#d1d1d1"
-   inkscape:document-units="mm"
-   inkscape:zoom="1.3649989"
-   inkscape:cx="573.62683"
-   inkscape:cy="485.34837"
-   inkscape:window-width="1728"
-   inkscape:window-height="994"
-   inkscape:window-x="0"
-   inkscape:window-y="38"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="layer1"
-   showgrid="false" />
-    <g
-   inkscape:label="floor_layer"
-   inkscape:groupmode="layer"
-   id="floor_layer"><path
-     style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-     d="M 11.159301,88.513548 37.02859,166.62865 51.738577,161.049 64.419601,199.3457 192.49794,199.59932 192.75156,87.752686 Z"
-     id="floor" /></g>
-    <g
-   inkscape:groupmode="layer"
-   id="layer3"
-   inkscape:label="obstacle_layer"><path
-   style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   d="m 17.246193,107.53508 18.767916,0.76086 16.643384,52.83638 -15.628903,5.49633 z"
-   id="path80"
-   sodipodi:nodetypes="ccccc" />
-        <path
-   style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   d="m 33.342937,96.348592 34.098359,0.02175 0.0054,5.439246 -33.736962,-0.48549 z"
-   id="path81"
-   sodipodi:nodetypes="ccccc" />
-        <path
-   style="fill:#3624c3;fill-opacity:0.51570678;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   d="m 37.789453,114.63646 18.514292,-5.07241 5.579653,21.0505 -16.992574,5.32603 z"
-   id="path82" />
-        <path
-   style="fill:#3624c3;fill-opacity:0.51570678;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   d="M 53.513921,165.10693 71.774597,159.7809 61.629776,130.10731 44.637205,135.68696 Z"
-   id="path83" />
-        <path
-   style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   d="m 53.197812,163.87191 17.520645,-4.68157 7.396652,22.90916 6.847752,0.25362 0.507241,15.97809 H 64.419601 Z"
-   id="path84"
-   sodipodi:nodetypes="ccccccc" />
-        <path
-   style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   d="m 65.941325,87.499065 v 3.550687 H 180.8314 l 0.25362,45.905308 -13.61585,0.76086 0.17397,32.46342 h 24.60118 l -0.50724,-82.933894 z"
-   id="path85"
-   sodipodi:nodetypes="ccccccccc" />
-        <path
-   style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   d="m 102.75541,98.71053 -0.0391,20.49109 h 54.52841 l 0.50724,-20.289632 z"
-   id="path86"
-   sodipodi:nodetypes="ccccc" />
-        <path
-   style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.0883798;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   d="m 83.898671,139.02096 0.113883,3.25138 76.399936,-0.0289 0.0412,-3.21014 z"
-   id="path87"
-   sodipodi:nodetypes="ccccc" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="210mm" height="297mm" viewBox="0 0 210 297" version="1.1" id="svg1" xml:space="preserve" inkscape:version="1.4 (e7c3feb1, 2024-10-09)" ns2:docname="floorplan.svg"><defs id="defs1" /><ns2:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.3649989" inkscape:cx="573.62683" inkscape:cy="485.34837" inkscape:window-width="1728" inkscape:window-height="994" inkscape:window-x="0" inkscape:window-y="38" inkscape:window-maximized="0" inkscape:current-layer="layer1" showgrid="false" />
+    <g inkscape:label="floor_layer" inkscape:groupmode="layer" id="floor_layer"><path style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" d="M 11.159301,88.513548 37.02859,166.62865 51.738577,161.049 64.419601,199.3457 192.49794,199.59932 192.75156,87.752686 Z" id="floor" /></g>
+    <g inkscape:groupmode="layer" id="layer3" inkscape:label="obstacle_layer"><path style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" d="m 17.246193,107.53508 18.767916,0.76086 16.643384,52.83638 -15.628903,5.49633 z" id="path80" ns2:nodetypes="ccccc" />
+        <path style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" d="m 33.342937,96.348592 34.098359,0.02175 0.0054,5.439246 -33.736962,-0.48549 z" id="path81" ns2:nodetypes="ccccc" />
+        <path style="fill:#3624c3;fill-opacity:0.51570678;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" d="m 37.789453,114.63646 18.514292,-5.07241 5.579653,21.0505 -16.992574,5.32603 z" id="path82" />
+        <path style="fill:#3624c3;fill-opacity:0.51570678;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" d="M 53.513921,165.10693 71.774597,159.7809 61.629776,130.10731 44.637205,135.68696 Z" id="path83" />
+        <path style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" d="m 53.197812,163.87191 17.520645,-4.68157 7.396652,22.90916 6.847752,0.25362 0.507241,15.97809 H 64.419601 Z" id="path84" ns2:nodetypes="ccccccc" />
+        <path style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" d="m 65.941325,87.499065 v 3.550687 H 180.8314 l 0.25362,45.905308 -13.61585,0.76086 0.17397,32.46342 h 24.60118 l -0.50724,-82.933894 z" id="path85" ns2:nodetypes="ccccccccc" />
+        <path style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" d="m 102.75541,98.71053 -0.0391,20.49109 h 54.52841 l 0.50724,-20.289632 z" id="path86" ns2:nodetypes="ccccc" />
+        <path style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.0883798;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" d="m 83.898671,139.02096 0.113883,3.25138 76.399936,-0.0289 0.0412,-3.21014 z" id="path87" ns2:nodetypes="ccccc" />
         
         
-        <path
-   style="fill:#3624c3;fill-opacity:0.51570678;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   d="m 76.593384,155.21573 8.115856,0.25363 -0.253619,-30.18084 H 70.506494 v 2.28258 z"
-   id="path90" /><path
-   style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
-   d="m 84.777645,198.3439 107.416525,-0.0595 0.0595,-28.45871 -3.50768,-0.0595 -0.11905,26.2448 H 84.412248 Z"
-   id="path4"
-   sodipodi:nodetypes="ccccccc" /></g>
-    <g
-   inkscape:groupmode="layer"
-   id="layer1"
-   inkscape:label="desk_layer"
-   inkscape:highlight-color="#e33e3e"><g
-   id="g70"
-   inkscape:label="work_bar"><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-01"
-     width="2"
-     height="2"
-     x="37.755959"
-     y="94.118263" /><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-02"
-     width="2"
-     height="2"
-     x="42.956299"
-     y="94.118263" /><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-03"
-     width="2"
-     height="2"
-     x="48.156639"
-     y="94.118263" /><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-04"
-     width="2"
-     height="2"
-     x="53.356976"
-     y="94.118263" /><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-05"
-     width="2"
-     height="2"
-     x="58.557316"
-     y="94.118263" /><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-06"
-     width="2"
-     height="2"
-     x="63.757656"
-     y="94.118263" /><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-07"
-     width="2"
-     height="2"
-     x="37.755959"
-     y="101.8596" /><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-08"
-     width="2"
-     height="2"
-     x="42.956299"
-     y="101.8596" /><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-09"
-     width="2"
-     height="2"
-     x="48.156639"
-     y="101.8596" /><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-10"
-     width="2"
-     height="2"
-     x="53.356976"
-     y="101.8596" /><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-11"
-     width="2"
-     height="2"
-     x="58.557316"
-     y="101.8596" /><rect
-     style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-     id="wb-12"
-     width="2"
-     height="2"
-     x="63.757656"
-     y="101.8596" /></g>
-        <g
-   id="g71"
-   inkscape:label="work_counter"><rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wc-01"
-   width="2"
-   height="2"
-   x="81.662949"
-   y="91.809448" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wc-02"
-   width="2"
-   height="2"
-   x="85.556152"
-   y="91.809448" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wc-03"
-   width="2"
-   height="2"
-   x="89.449356"
-   y="91.809448" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wc-04"
-   width="2"
-   height="2"
-   x="93.342567"
-   y="91.809448" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wc-05"
-   width="2"
-   height="2"
-   x="97.235771"
-   y="91.809448" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wc-06"
-   width="2"
-   height="2"
-   x="115.41909"
-   y="91.67186" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wc-07"
-   width="2"
-   height="2"
-   x="119.3123"
-   y="91.67186" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wc-08"
-   width="2"
-   height="2"
-   x="123.20551"
-   y="91.67186" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wc-09"
-   width="2"
-   height="2"
-   x="127.09872"
-   y="91.67186" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wc-10"
-   width="2"
-   height="2"
-   x="130.99191"
-   y="91.67186" /></g>
-        <g
-   id="g69"
-   inkscape:label="event_space"><rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-01"
-   width="2"
-   height="2"
-   x="73.113205"
-   y="104.77655" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-02"
-   width="2"
-   height="2"
-   x="79.190308"
-   y="105.07542" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-03"
-   width="2"
-   height="2"
-   x="76.400818"
-   y="108.06416" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-04"
-   width="2"
-   height="2"
-   x="75.902695"
-   y="101.78781" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-05"
-   width="2"
-   height="2"
-   x="75.006073"
-   y="114.44014" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-06"
-   width="2"
-   height="2"
-   x="81.083176"
-   y="114.73901" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-07"
-   width="2"
-   height="2"
-   x="78.293686"
-   y="117.72775" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-08"
-   width="2"
-   height="2"
-   x="77.795563"
-   y="111.4514" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-09"
-   width="2"
-   height="2"
-   x="82.976044"
-   y="106.66942" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-10"
-   width="2"
-   height="2"
-   x="89.053146"
-   y="106.96829" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-11"
-   width="2"
-   height="2"
-   x="86.263657"
-   y="109.95703" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
-   id="es-12"
-   width="2"
-   height="2"
-   x="85.765533"
-   y="103.68068" /></g>
-        <g
-   id="g72"
-   inkscape:label="work_pod"><rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-01"
-   width="9.4592857"
-   height="11.478199"
-   x="85.860603"
-   y="127.10648" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-02"
-   width="9.4592857"
-   height="11.478199"
-   x="96.709175"
-   y="127.10648" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-04"
-   width="9.4592857"
-   height="11.478199"
-   x="118.40631"
-   y="127.10648" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-03"
-   width="9.4592857"
-   height="11.478199"
-   x="107.55775"
-   y="127.10648" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-09"
-   width="9.4592857"
-   height="11.478199"
-   x="85.860603"
-   y="142.88623" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-10"
-   width="9.4592857"
-   height="11.478199"
-   x="96.709175"
-   y="142.88623" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-12"
-   width="9.4592857"
-   height="11.478199"
-   x="118.40631"
-   y="142.88623" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-11"
-   width="9.4592857"
-   height="11.478199"
-   x="107.55775"
-   y="142.88623" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-06"
-   width="9.4592857"
-   height="11.478199"
-   x="129.25488"
-   y="127.10648" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-08"
-   width="9.4592857"
-   height="11.478199"
-   x="150.95203"
-   y="127.10648" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-07"
-   width="9.4592857"
-   height="11.478199"
-   x="140.10345"
-   y="127.10648" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-13"
-   width="9.4592857"
-   height="11.478199"
-   x="129.25488"
-   y="142.88623" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-15"
-   width="9.4592857"
-   height="11.478199"
-   x="150.95203"
-   y="142.88623" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-14"
-   width="9.4592857"
-   height="11.478199"
-   x="140.10345"
-   y="142.88623" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-16"
-   width="9.4592857"
-   height="11.478199"
-   x="85.860603"
-   y="163.45625" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-17"
-   width="9.4592857"
-   height="11.478199"
-   x="96.709175"
-   y="163.45625" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-19"
-   width="9.4592857"
-   height="11.478199"
-   x="118.40631"
-   y="163.45625" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-18"
-   width="9.4592857"
-   height="11.478199"
-   x="107.55775"
-   y="163.45625" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-20"
-   width="9.4592857"
-   height="11.478199"
-   x="129.25488"
-   y="163.45625" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-22"
-   width="9.4592857"
-   height="11.478199"
-   x="150.95203"
-   y="163.45625" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="wp-21"
-   width="9.4589996"
-   height="11.478199"
-   x="140.10345"
-   y="163.45625" /></g>
-        <g
-   id="g73"
-   inkscape:label="executive_office"><rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="eo-01"
-   width="11.668"
-   height="14.157727"
-   x="86.034966"
-   y="183.99019" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="eo-02"
-   width="11.667508"
-   height="14.157727"
-   x="99.416084"
-   y="183.99019" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="eo-04"
-   width="11.667508"
-   height="14.157727"
-   x="126.3192"
-   y="183.99019" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="eo-03"
-   width="11.667508"
-   height="14.157727"
-   x="112.7972"
-   y="183.99019" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="eo-05"
-   width="11.667508"
-   height="14.157727"
-   x="139.7003"
-   y="184.13107" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="eo-07"
-   width="11.600472"
-   height="20.148985"
-   x="166.63695"
-   y="178.10631" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="eo-06"
-   width="11.667508"
-   height="14.157727"
-   x="153.08141"
-   y="183.99019" />
-            <rect
-   style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-   id="eo-08"
-   width="11.562275"
-   height="26.591751"
-   x="180.04065"
-   y="171.50354" /></g></g></svg>
+        <path style="fill:#3624c3;fill-opacity:0.51570678;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" d="m 76.593384,155.21573 8.115856,0.25363 -0.253619,-30.18084 H 70.506494 v 2.28258 z" id="path90" /><path style="fill:#3624c3;fill-opacity:0.515707;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke" d="m 84.777645,198.3439 107.416525,-0.0595 0.0595,-28.45871 -3.50768,-0.0595 -0.11905,26.2448 H 84.412248 Z" id="path4" ns2:nodetypes="ccccccc" /></g>
+    <g inkscape:groupmode="layer" id="layer1" inkscape:label="desk_layer" inkscape:highlight-color="#e33e3e"><g id="g70" inkscape:label="work_bar"><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-01" width="2" height="2" x="37.755959" y="94.118263" inkscape:label="wb-01" /><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-02" width="2" height="2" x="42.956299" y="94.118263" inkscape:label="wb-02" /><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-03" width="2" height="2" x="48.156639" y="94.118263" inkscape:label="wb-03" /><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-04" width="2" height="2" x="53.356976" y="94.118263" inkscape:label="wb-04" /><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-05" width="2" height="2" x="58.557316" y="94.118263" inkscape:label="wb-05" /><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-06" width="2" height="2" x="63.757656" y="94.118263" inkscape:label="wb-06" /><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-07" width="2" height="2" x="37.755959" y="101.8596" inkscape:label="wb-07" /><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-08" width="2" height="2" x="42.956299" y="101.8596" inkscape:label="wb-08" /><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-09" width="2" height="2" x="48.156639" y="101.8596" inkscape:label="wb-09" /><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-10" width="2" height="2" x="53.356976" y="101.8596" inkscape:label="wb-10" /><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-11" width="2" height="2" x="58.557316" y="101.8596" inkscape:label="wb-11" /><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wb-12" width="2" height="2" x="63.757656" y="101.8596" inkscape:label="wb-12" /></g>
+        <g id="g71" inkscape:label="work_counter"><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wc-01" width="2" height="2" x="81.662949" y="91.809448" inkscape:label="wc-01" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wc-02" width="2" height="2" x="85.556152" y="91.809448" inkscape:label="wc-02" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wc-03" width="2" height="2" x="89.449356" y="91.809448" inkscape:label="wc-03" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wc-04" width="2" height="2" x="93.342567" y="91.809448" inkscape:label="wc-04" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wc-05" width="2" height="2" x="97.235771" y="91.809448" inkscape:label="wc-05" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wc-06" width="2" height="2" x="115.41909" y="91.67186" inkscape:label="wc-06" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wc-07" width="2" height="2" x="119.3123" y="91.67186" inkscape:label="wc-07" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wc-08" width="2" height="2" x="123.20551" y="91.67186" inkscape:label="wc-08" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wc-09" width="2" height="2" x="127.09872" y="91.67186" inkscape:label="wc-09" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="wc-10" width="2" height="2" x="130.99191" y="91.67186" inkscape:label="wc-10" /></g>
+        <g id="g69" inkscape:label="event_space"><rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-01" width="2" height="2" x="73.113205" y="104.77655" inkscape:label="es-01" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-02" width="2" height="2" x="79.190308" y="105.07542" inkscape:label="es-02" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-03" width="2" height="2" x="76.400818" y="108.06416" inkscape:label="es-03" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-04" width="2" height="2" x="75.902695" y="101.78781" inkscape:label="es-04" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-05" width="2" height="2" x="75.006073" y="114.44014" inkscape:label="es-05" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-06" width="2" height="2" x="81.083176" y="114.73901" inkscape:label="es-06" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-07" width="2" height="2" x="78.293686" y="117.72775" inkscape:label="es-07" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-08" width="2" height="2" x="77.795563" y="111.4514" inkscape:label="es-08" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-09" width="2" height="2" x="82.976044" y="106.66942" inkscape:label="es-09" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-10" width="2" height="2" x="89.053146" y="106.96829" inkscape:label="es-10" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-11" width="2" height="2" x="86.263657" y="109.95703" inkscape:label="es-11" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.259766;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke" id="es-12" width="2" height="2" x="85.765533" y="103.68068" inkscape:label="es-12" /></g>
+        <g id="g72" inkscape:label="work_pod"><rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-01" width="9.4592857" height="11.478199" x="85.860603" y="127.10648" inkscape:label="wp-01" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-02" width="9.4592857" height="11.478199" x="96.709175" y="127.10648" inkscape:label="wp-02" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-04" width="9.4592857" height="11.478199" x="118.40631" y="127.10648" inkscape:label="wp-04" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-03" width="9.4592857" height="11.478199" x="107.55775" y="127.10648" inkscape:label="wp-03" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-09" width="9.4592857" height="11.478199" x="85.860603" y="142.88623" inkscape:label="wp-09" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-10" width="9.4592857" height="11.478199" x="96.709175" y="142.88623" inkscape:label="wp-10" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-12" width="9.4592857" height="11.478199" x="118.40631" y="142.88623" inkscape:label="wp-12" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-11" width="9.4592857" height="11.478199" x="107.55775" y="142.88623" inkscape:label="wp-11" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-06" width="9.4592857" height="11.478199" x="129.25488" y="127.10648" inkscape:label="wp-06" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-08" width="9.4592857" height="11.478199" x="150.95203" y="127.10648" inkscape:label="wp-08" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-07" width="9.4592857" height="11.478199" x="140.10345" y="127.10648" inkscape:label="wp-07" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-13" width="9.4592857" height="11.478199" x="129.25488" y="142.88623" inkscape:label="wp-13" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-15" width="9.4592857" height="11.478199" x="150.95203" y="142.88623" inkscape:label="wp-15" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-14" width="9.4592857" height="11.478199" x="140.10345" y="142.88623" inkscape:label="wp-14" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-16" width="9.4592857" height="11.478199" x="85.860603" y="163.45625" inkscape:label="wp-16" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-17" width="9.4592857" height="11.478199" x="96.709175" y="163.45625" inkscape:label="wp-17" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-19" width="9.4592857" height="11.478199" x="118.40631" y="163.45625" inkscape:label="wp-19" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-18" width="9.4592857" height="11.478199" x="107.55775" y="163.45625" inkscape:label="wp-18" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-20" width="9.4592857" height="11.478199" x="129.25488" y="163.45625" inkscape:label="wp-20" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-22" width="9.4592857" height="11.478199" x="150.95203" y="163.45625" inkscape:label="wp-22" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="wp-21" width="9.4589996" height="11.478199" x="140.10345" y="163.45625" inkscape:label="wp-21" /></g>
+        <g id="g73" inkscape:label="executive_office"><rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="eo-01" width="11.668" height="14.157727" x="86.034966" y="183.99019" inkscape:label="eo-01" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="eo-02" width="11.667508" height="14.157727" x="99.416084" y="183.99019" inkscape:label="eo-02" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="eo-04" width="11.667508" height="14.157727" x="126.3192" y="183.99019" inkscape:label="eo-04" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="eo-03" width="11.667508" height="14.157727" x="112.7972" y="183.99019" inkscape:label="eo-03" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="eo-05" width="11.667508" height="14.157727" x="139.7003" y="184.13107" inkscape:label="eo-05" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="eo-07" width="11.600472" height="20.148985" x="166.63695" y="178.10631" inkscape:label="eo-07" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="eo-06" width="11.667508" height="14.157727" x="153.08141" y="183.99019" inkscape:label="eo-06" />
+            <rect style="fill:none;stroke:#ff0505;stroke-width:0.26;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" id="eo-08" width="11.562275" height="26.591751" x="180.04065" y="171.50354" inkscape:label="eo-08" /></g></g></svg>
