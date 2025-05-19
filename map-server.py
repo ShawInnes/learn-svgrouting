@@ -37,13 +37,15 @@ def get_map_data(layer: str,
             """)
         elif layer == 'desks':
             cur.execute(f"""
-            SELECT desk_id as name, ST_AsText(geom) as geom
-            FROM {schema_name}.{table_prefix}_{layer};
+            SELECT asset_id as name, ST_AsText(geom) as geom
+            FROM {schema_name}.{table_prefix}_assets
+            WHERE asset_type = 'desk';
             """)
         elif layer == 'rooms':
             cur.execute(f"""
-            SELECT room_id as name, ST_AsText(geom) as geom
-            FROM {schema_name}.{table_prefix}_{layer};
+            SELECT asset_id as name, ST_AsText(geom) as geom
+            FROM {schema_name}.{table_prefix}_assets
+            WHERE asset_type = 'room';
             """)
         elif layer == 'obstacles':
             cur.execute(f"""
