@@ -33,9 +33,34 @@ const floorsLayer = new VectorLayer({
             dataProjection: 'EPSG:9999',
             featureProjection: 'EPSG:9999'
         }),
-    }), style: {
-        'stroke-color': 'black', 'stroke-width': 4, 'fill-color': 'rgba(28,164,248,0.2)',
-    },
+    }),
+    style: function (feature, resolution) {
+        // Calculate scale factors based on resolution
+        const strokeWidth = Math.min(4 / (resolution * 0.5), 4); // Scales down as you zoom out
+
+        return [
+            new Style({
+                zIndex: 10000,
+                fill: new Fill({
+                    color: 'rgba(28,164,248,0.2)', // Orange color with transparency
+                }),
+                stroke: new Stroke({
+                    color: '#000000',
+                    width: strokeWidth,
+                }),
+            }),
+            new Style({
+                zIndex: 1000000,
+                text: new Text({
+                    font: `24px Arial`,
+                    declutterMode: 'obstacle',
+                    text: `Level ${feature.get('name')}`,
+                    scale: 2 / resolution
+                }),
+            })
+
+        ]
+    }
 });
 
 const obstaclesLayer = new VectorLayer({
@@ -45,9 +70,22 @@ const obstaclesLayer = new VectorLayer({
             dataProjection: 'EPSG:9999',
             featureProjection: 'EPSG:9999'
         }),
-    }), style: {
-        'fill-color': 'rgba(168,168,168,0.57)',
-    },
+    }),
+    style: function (feature, resolution) {
+        // Calculate scale factors based on resolution
+        const strokeWidth = Math.min(4 / (resolution * 0.5), 4); // Scales down as you zoom out
+
+        return new Style({
+            zIndex: -100,
+            fill: new Fill({
+                color: 'rgba(168,168,168,0.57)',
+            }),
+            stroke: new Stroke({
+                color: 'rgba(168,168,168,1)',
+                width: strokeWidth,
+            }),
+        });
+    }
 })
 
 const roomsLayer = new VectorLayer({
